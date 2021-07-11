@@ -507,6 +507,28 @@ a{
         padding-top: 5rem;
     }
 }
+@media screen and (min-width:768px) {
+    .contact-info, 
+    .contact-form{
+        float: left;
+        width: 33%;
+        padding: 0 1rem;
+    }
+    .contact-info{
+        padding-top: 5rem;
+    }
+}
+@media screen and (min-width:576px) {
+    .contact-info, 
+    .contact-form{
+        float: left;
+        width: 25%;
+        padding: 0 1rem;
+    }
+    .contact-info{
+        padding-top: 5rem;
+    }
+}
 /* end of contact */
 /* footer */
 .footer{
